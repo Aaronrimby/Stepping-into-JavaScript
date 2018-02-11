@@ -1,9 +1,9 @@
-var myAge = 5;
+var links = document.getElementsByTagName('a')
 
-while (myAge < 10) {
+for (i = 1; i <= links.length; i++) {
 
-    console.log("You are less than 10");
-    myAge++;
+    console.log("This is link number " + i);
+
 }
 
-document.write("You are now more than 10");
+document.write("All links now looped");
