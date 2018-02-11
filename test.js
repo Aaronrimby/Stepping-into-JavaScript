@@ -1,9 +1,16 @@
-function getDifference (a,b) {
+function getAverage (a,b) {
 
-    var diff = (a - b);
-    console.log(diff);
-    //return average;
+    var average = (a + b)/2;
+    console.log(average);
+    return average;
 }
-getDifference(10,3);
-/*var myResult = getAverage(7,8, 100, 826, 1);
-console.log("my result is " + myResult);*/
+
+var myResult = getAverage(7,11);
+
+function logResult(){
+
+    console.log("my result is " + myResult + " this is in the function");
+
+}
+
+logResult();
