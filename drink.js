@@ -1,4 +1,4 @@
-function canDrink(a){
+/*function canDrink(a){
 
      if(a < 1997){
 
@@ -13,4 +13,18 @@ function canDrink(a){
 
 }
 
-canDrink(1978);
+canDrink(1978);*/
+
+
+function count(a){
+     
+console.log("Count with me");
+
+     for(i = 1; i < a; i++){
+          console.log(i);
+
+     }
+
+}
+
+count(10);
