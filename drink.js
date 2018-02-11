@@ -27,7 +27,7 @@ console.log("Count with me");
 
 }
 
-count(10);*/
+count(10);
 
 function valueCheck(a){
 
@@ -42,4 +42,13 @@ function valueCheck(a){
 
 }
 
-valueCheck(3);
+valueCheck(3);*/
+
+function stringSplitter(str){
+
+     result = str.split (" ");
+     console.log(result);
+
+}
+
+stringSplitter("How bout dem Cowboys?")
