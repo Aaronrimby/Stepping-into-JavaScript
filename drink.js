@@ -16,8 +16,8 @@
 canDrink(1978);*/
 
 
-function count(a){
-     
+/*function count(a){
+
 console.log("Count with me");
 
      for(i = 1; i < a; i++){
@@ -27,4 +27,19 @@ console.log("Count with me");
 
 }
 
-count(10);
+count(10);*/
+
+function valueCheck(a){
+
+     if(a===5){
+
+          document.write("it is true that " + a);
+
+     }else {
+          document.write("it is NOT true");
+     }
+
+
+}
+
+valueCheck(3);
