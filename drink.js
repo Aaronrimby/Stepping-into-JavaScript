@@ -42,7 +42,7 @@ function valueCheck(a){
 
 }
 
-valueCheck(3);*/
+valueCheck(3);
 
 function stringSplitter(str){
 
@@ -51,4 +51,12 @@ function stringSplitter(str){
 
 }
 
-stringSplitter("How bout dem Cowboys?")
+stringSplitter("How bout dem Cowboys?")*/
+
+function addContent(a){
+
+document.getElementById('myChatter').innerHTML = a;
+
+}
+
+addContent("How bout Dem Cowboys?!?!");
